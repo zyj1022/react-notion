@@ -1,0 +1,9 @@
+name = "notion-api"
+webpack_config = "webpack.config.js"
+type = "webpack"
+account_id = "" # bfcb82a99dc8bfe4e541c57a5c957fc6
+workers_dev = true
+
+[env.production]
+zone_id = "" #
+route = "notion-api.splitbee.io/*"
