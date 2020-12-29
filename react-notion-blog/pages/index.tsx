@@ -24,8 +24,9 @@ export async function getStaticProps() {
 }
 
 function HomePage({ posts }: { posts: Post[] }) {
+  console.log('HomePage', posts);
   return (
-    <div className="content">
+    <div className="container mx-auto">
       <h1>Posts</h1>
       <div>
         {posts.map((post) => (

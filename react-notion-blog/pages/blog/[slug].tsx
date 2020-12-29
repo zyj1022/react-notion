@@ -31,7 +31,7 @@ const BlogPost: React.FC<{ post: Post; blocks: BlockMapType }> = ({
   blocks,
 }) => {
   if (!post) return null;
-
+  console.log('blocks', blocks);
   return (
     <div className="content">
       <h1>{post.title}</h1>
